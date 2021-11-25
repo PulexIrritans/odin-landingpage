@@ -141,14 +141,14 @@ p {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 40px 0;
+    padding: 40px 5px;
 }
 
 button {
     background-color: #3882F6;
     color:#F9FAF8;
     display: flex;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 12px;
     border: 2px solid #F9FAF8;
 }
