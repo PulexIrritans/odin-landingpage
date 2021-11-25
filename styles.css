@@ -1,0 +1,160 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.first-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 300px;
+    flex-wrap: wrap;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 75px 300px 75px 300px;
+}
+
+.hero1 {
+    padding-right: 40px;
+}
+
+video {
+    width: 600px;
+    flex-shrink: 1;
+}
+
+ul {
+    display: flex;
+    gap: 18px;
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+
+.standard-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.btn1 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    margin-top: 10px;
+}
+
+.second-section {
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.imginfo {
+    max-width: 200px;
+    margin: 20px 20px 50px 20px;
+}
+
+img {
+    width: 200px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #1F2937;
+}
+
+.third-section {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    padding: 75px 300px;
+}
+
+q {
+    text-align: center;
+    font-size: 36px;
+    font-style: italic;
+}
+
+p {
+    text-align: right;
+    font-size: 24px;
+    font-weight:bolder;
+}
+
+.forth-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 300px;
+}
+
+.blue-box {
+    background-color: #3882F6;
+    flex: 1;
+    color:#F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+}
+
+button {
+    background-color: #3882F6;
+    color:#F9FAF8;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 25px 0px;
+}
