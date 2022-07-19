@@ -29,7 +29,7 @@ body {
 }
 
 video {
-    width: 600px;
+    max-width: 600px;
     flex-shrink: 1;
 }
 
